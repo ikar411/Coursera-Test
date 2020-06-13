@@ -10,6 +10,10 @@
 	margin-bottom: 50px;
 }
 
+body{
+	background-color: #E5E7E9;
+}
+
 #logo-img{
 	background: url('../img/queen.png') no-repeat;
 	width: 200px;
@@ -51,6 +55,10 @@
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  box-shadow: 10px 10px 5px grey;
 }
 
 .image h2{
@@ -63,7 +71,8 @@
 	margin: auto;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 18px
+	font-size: 18px;
+
 }
 .overlay {
   position: absolute;
@@ -82,7 +91,7 @@
 }
 
 .text {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
